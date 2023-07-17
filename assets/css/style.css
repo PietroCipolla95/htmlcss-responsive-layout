@@ -473,6 +473,24 @@ footer a {
         width: calc(96% / 12 * 6);
     }                                    /* benefits */
 
+    #about-us .col-4 {
+        position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+    #get-started .container {
+        justify-content: center;
+    }
+
+
    
     
 
