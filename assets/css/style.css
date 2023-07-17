@@ -210,6 +210,31 @@ nav .row {
     font-size: 2rem;
 }
 
+#app-dev {
+    background-color: var(--rsp-secondary);
+    border-radius: 30px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#app-dev p {
+    text-align: center;
+    font-style: italic;
+}
+
+#app-dev h2,
+#app-dev p {
+    color: black;
+    margin: 1rem 0;
+}
+
+#app-dev span {
+    padding: 1.3rem;
+    background-color: #9792E4;
+    border-radius: 50%;
+}
+
+
 
 
 
