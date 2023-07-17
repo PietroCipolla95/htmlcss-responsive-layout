@@ -93,6 +93,9 @@ body {
     flex-direction: column;
 }
 
+img {
+    width: 100%;
+}
 
 
 
@@ -156,12 +159,7 @@ nav .row {
     margin: 1rem;
 }
 
-#offers img {
-    width: 100%;
-}
-
-h2,
-#offers i {
+#offers i, #offers h2 {
     color: var(--rsp-heanvenly);
     padding-bottom: 1rem;
 }
@@ -182,7 +180,7 @@ h2,
 }
 
 
-.text {
+#offers .text {
     margin: 1.5rem;
     align-items: center;
     justify-self: flex-end;
@@ -198,22 +196,28 @@ h2,
     padding: 0.5rem 2.5rem; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* #endregion Offers */
 
+/* #region Planning */
+
+#planning h2,
+#planning p {
+    color: var(--rsp-secondary);
+    padding: 1.5rem;
+}
+
+#planning h2 {
+    font-size: 2rem;
+}
 
 
+
+
+
+
+
+
+/* #endregion Planning */
 
 
 
