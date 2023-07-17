@@ -13,8 +13,6 @@
     --rsp-footer: #333333;
 }
 
-
-
 /* #region Debug */
 
 .debug header {
@@ -23,7 +21,8 @@
     width: 100%;    
 }
 
-.logo, .menu {
+.debug .logo,
+.debug .menu {
     height: 80px;
     width: 100px;
     background-color: grey;
@@ -51,21 +50,7 @@
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* #endregion Debug */
-
-
 
 /* #region Utility */
 
@@ -111,9 +96,21 @@
 
 /* #region Header */
 
+header {
+    height: 80px;
+    background-color: var(--rsp-heanvenly);
+}
+
+nav .row {
+    align-items: center;
+    padding: 1rem;
+}
+
 .desktop-menu {
     display: none;
 }
+
+
 
 
 
