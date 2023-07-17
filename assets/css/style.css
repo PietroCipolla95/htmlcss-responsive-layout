@@ -97,7 +97,15 @@ img {
     width: 100%;
 }
 
-
+#benefits a,
+.about-card-ceo a {
+    background-color: #9792E4;
+    padding: 0.5rem 3rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
 
 /* #endregion Utility */
 
@@ -129,20 +137,6 @@ nav .row {
 #get-started .row,
 #get-started .container {
     justify-content: center;
-}
-
-#planning {
-    margin: 2rem 0;
-    background-color: var(--rsp-primary);
-}
-
-.testimonial-card {
-    justify-content: center;
-}
-
-#benefits {
-    background-color: var(--rsp-primary);
-    margin: 2rem 0;
 }
 
 /* #region Offers */
@@ -200,6 +194,11 @@ nav .row {
 
 /* #region Planning */
 
+#planning {
+    margin: 2rem 0;
+    background-color: var(--rsp-primary);
+}
+
 #planning h2,
 #planning p {
     color: var(--rsp-secondary);
@@ -234,19 +233,139 @@ nav .row {
     border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
 /* #endregion Planning */
 
+/* #region Testimonials */
+
+.testimonials-header {
+    text-align: center;
+}
+
+#testimonials h2 {
+    color: #9792E4;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+
+#testimonials p {
+    line-height: 2rem;
+}
+
+.testimonial-card {
+    background-color: #9792E4;
+    border-radius: 50px;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;    
+}
+
+.testimonial-card p {
+    margin: 1rem 0;
+}
+
+.testimonial-card img {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* #endregion Testimonials */
+
+/* #region Benefits */
+
+#benefits {
+    background-color: var(--rsp-primary);
+    margin: 2rem 0;
+}
+
+#benefits .row > h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+.benefit-card h2 {
+    font-size: 2.5rem;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+}
+
+.benefit-card {
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 20px;
+    color: var(--rsp-primary);
+    padding: 2rem;
+}
+
+.benefit-card p {
+    color: #333333;
+}
+
+#benefits p, 
+#benefits h3 {
+    margin: 1.5rem 0;
+}
+
+/* #endregion Benefits */
+
+/* #region about us */
+
+#about-us {
+    margin-bottom: 5rem;
+}
+
+.about-card-text h2 {
+    color: #9792E4;
+    font-size: 2.5rem;
+}
+
+#about-us p {
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+.about-card-ceo {
+    position: relative;
+    padding: 1rem;
+}
+
+.about-card-ceo img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.about-card-ceo #quotes {
+    position: absolute;
+    top: 0%;
+    left: 38%;
+    color: #9792E4;
+}
+
+.about-card-ceo p {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #9792E4;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion about us */
 
 /* #endregion Main */
 
