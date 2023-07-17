@@ -12,3 +12,134 @@
     --rsp-special: #FDC15F;
     --rsp-footer: #333333;
 }
+
+
+/* #region Debug */
+
+.debug header {
+    background-color: #0084FD;
+    height: 100px;
+    width: 100%;    
+}
+
+.logo, .menu {
+    height: 80px;
+    width: 100px;
+    background-color: grey;
+}
+
+.debug .col-12 {
+    height: 100px;
+    width: 90%;
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.debug .text,
+.debug .image {
+    height: 60%;
+    width: 100%;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.debug .testimonial-card {
+    background-color: lightpink;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Debug */
+
+
+
+/* #region Utility */
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Utility */
+
+
+/* #region Header */
+
+.desktop-menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* #endregion Header */
+
+/* #region Main */
+
+#offers .row, 
+#planning .row,
+#testimonials .row {
+    justify-content: center;
+}
+
+#planning {
+    margin: 2rem 0;
+    background-color: var(--rsp-primary);
+}
+
+.testimonial-card {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* #endregion Main */
+
