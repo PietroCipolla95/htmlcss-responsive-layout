@@ -419,11 +419,23 @@ nav .row {
 
 footer {
     background-color: var(--rsp-footer);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2rem;
 }
 
 footer .container {
-    justify-content: center;
+    width: 90%;
 }
+
+footer p {
+    padding-bottom: 3rem;
+}
+
+footer a {
+    color: #9792E4;
+}
+
 
 
 
