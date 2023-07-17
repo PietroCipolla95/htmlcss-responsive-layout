@@ -14,6 +14,7 @@
 }
 
 
+
 /* #region Debug */
 
 .debug header {
@@ -87,6 +88,11 @@
     flex-wrap: wrap;
 }
 
+.col-12 {
+    padding: 1px;
+    width: 100%;
+}
+
 
 
 
@@ -114,15 +120,17 @@
 
 
 
-
-
 /* #endregion Header */
 
 /* #region Main */
 
 #offers .row, 
 #planning .row,
-#testimonials .row {
+#testimonials .row,
+#benefits .row,
+#about-us .row,
+#get-started .row,
+#get-started .container {
     justify-content: center;
 }
 
@@ -135,6 +143,12 @@
     justify-content: center;
 }
 
+#benefits {
+    background-color: var(--rsp-primary);
+    margin: 2rem 0;
+}
+
+
 
 
 
@@ -142,4 +156,24 @@
 
 
 /* #endregion Main */
+
+/* #region Footer */
+
+footer {
+    background-color: var(--rsp-footer);
+}
+
+footer .container {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* #endregion Footer */
 
