@@ -129,20 +129,15 @@ nav .row {
 
 /* #region Main */
 
-#offers .row, 
-#planning .row,
-#testimonials .row,
-#benefits .row,
-#about-us .row,
-#get-started .row,
-#get-started .container {
-    justify-content: center;
-}
-
 /* #region Offers */
 
 #offers {
     margin: 2rem 0;
+}
+
+#offers .col-4 {
+    text-align: center;
+    font-weight: 600;
 }
 
 #offers .col-12 {
@@ -153,7 +148,7 @@ nav .row {
     margin: 1rem;
 }
 
-#offers i, #offers h2 {
+#offers h2 {
     color: var(--rsp-heanvenly);
     padding-bottom: 1rem;
 }
@@ -187,7 +182,7 @@ nav .row {
     color: white;
     background-color: var(--rsp-heanvenly);
     border-radius: 20px;
-    padding: 0.5rem 2.5rem; 
+    padding: 0.5rem 1.5rem; 
 }
 
 /* #endregion Offers */
@@ -436,14 +431,48 @@ footer a {
     color: #9792E4;
 }
 
-
-
-
-
-
-
-
-
-
 /* #endregion Footer */
+
+/* #region Media Query */
+
+/* #region tablet view */
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+
+    .row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-8 {
+        width: calc(90% / 12 * 8);
+    }
+
+    .col-4 {
+        width: calc(90% / 12 * 4);
+        text-align: center;
+    }
+
+    #offers .col-12 {
+        margin: 0.5rem;
+    }
+    
+}
+
+
+
+/* #endregion tablet view */
+
+/* #region desktop view */
+
+
+
+
+
+
+
+
+/* #region desktop view */
+
+/* #endregion Media Query */
 
