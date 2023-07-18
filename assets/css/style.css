@@ -648,6 +648,35 @@ footer a {
         width: calc(100% / 12 * 4);
     }
 
+    /* benefits */
+
+    .about-card-ceo {
+        padding-left: 5rem;
+    }
+
+    .about-card-ceo p {
+        line-height: 2.5rem;
+    }
+
+    .ceo img {
+        width: 100%;
+    }
+
+    .ceo {
+        position: relative;
+    }
+
+    .about-card-ceo #quotes {
+        position: absolute;
+        top: 0;
+        left: 190px;
+    }
+
+
+
+
+
+
 
 
    
