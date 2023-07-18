@@ -164,8 +164,12 @@ nav .row {
     margin-bottom: 0;
 }
 
-#demo > .col-12 {
-    margin-bottom: 0;
+#demo img {
+    margin-top: 2rem;
+}
+
+#offers .col-12 {
+    margin: 1rem 0;
 }
 
 #app-store {
@@ -175,7 +179,7 @@ nav .row {
     color: white;
     background-color: var(--rsp-heanvenly);
     border-radius: 20px;
-    padding: 0.5rem 1.5rem; 
+    padding: 0.5rem 2.5rem; 
 }
 
 /* #endregion Offers */
