@@ -170,6 +170,10 @@ nav {
     padding: 0.5rem 2.5rem; 
 }
 
+#app-store i {
+    color: white;
+}
+
 /* #endregion Offers */
 
 /* #region Planning */
@@ -334,7 +338,7 @@ nav {
     line-height: 3rem;
 }
 
-.about-card-ceo {
+.ceo {
     position: relative;
     padding: 1rem;
 }
@@ -346,8 +350,8 @@ nav {
 
 .about-card-ceo #quotes {
     position: absolute;
-    top: 0%;
-    left: 38%;
+    top: 0;
+    left: 130px;
     color: #9792E4;
 }
 
@@ -514,14 +518,15 @@ footer a {
         padding: 1rem;
     }
 
-    .about-card-ceo {
+    .ceo {
         position: relative;
     }
 
-    #quotes {
+    .about-card-ceo #quotes {
         position: absolute;
         top: 0;
-        right: 100%;
+        left: 160px;
+        
     }
 
     .about-card-ceo {
@@ -570,7 +575,20 @@ footer a {
         border-radius: 20px;
         padding: 0.5rem 1rem;
     }
-        
+
+    /* Nav */
+
+    #demo .card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #demo img {
+        width: 40%;
+        aspect-ratio: 1;    
+    }
+
+    
 }
 
 
