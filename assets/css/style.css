@@ -264,6 +264,9 @@ nav .row {
 }
 
 .testimonial-card img {
+    object-fit: cover;
+    width: 180px;
+    aspect-ratio: 1;
     padding: 1rem;
     border-radius: 50%;
 }
@@ -473,10 +476,25 @@ footer a {
         width: calc(96% / 12 * 6);
     }                                    /* benefits */
 
-    #about-us .col-4 {
+    .about-card-ceo {
         position: relative;
     }
 
+    #quotes {
+        position: absolute;
+    }
+
+    .about-card-ceo {
+        text-align: left;
+    }
+
+    .about-card-ceo img {
+        width: 200px;
+    }
+
+    
+
+ 
 
 
 
