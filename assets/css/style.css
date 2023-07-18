@@ -101,13 +101,8 @@ img {
 
 /* #region Header */
 
-header {
-    height: 80px;
+nav {
     background-color: var(--rsp-heanvenly);
-}
-
-nav .row {
-    align-items: center;
     padding: 1rem;
 }
 
@@ -540,30 +535,10 @@ footer a {
 
     /* about us */
 
-    
-
- 
-
-
-
-
-
-
-
-
-
     #get-started .container {
         justify-content: center;
     }
-
-
-   
-    
-
-
-
-
-    
+      
 }
 
 
@@ -573,7 +548,29 @@ footer a {
 /* #region desktop view */
 
 @media screen and (min-width: 1200px) {
-    
+
+    .menu {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: block;
+    }
+
+    .desktop-menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .desktop-menu a:last-child {
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+    }
+        
 }
 
 
