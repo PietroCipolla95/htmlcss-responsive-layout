@@ -65,7 +65,7 @@ body {
 }
 
 .row {
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
 }
 
@@ -95,16 +95,6 @@ body {
 
 img {
     max-width: 100%;
-}
-
-#benefits a,
-.about-card-ceo a {
-    background-color: #9792E4;
-    padding: 0.5rem 3rem;
-    color: white;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 900;
 }
 
 /* #endregion Utility */
@@ -317,6 +307,15 @@ nav .row {
     margin: 1.5rem 0;
 }
 
+#benefits a {
+    background-color: #9792E4;
+    padding: 0.5rem 3rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
 /* #endregion Benefits */
 
 /* #region about us */
@@ -331,8 +330,13 @@ nav .row {
 }
 
 #about-us p {
-    line-height: 2rem;
     margin: 2rem 0;
+}
+
+.about-card-text p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 3rem;
 }
 
 .about-card-ceo {
@@ -353,9 +357,18 @@ nav .row {
 }
 
 .about-card-ceo p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: #9792E4;
+}
+
+.about-card-ceo a {
+    background-color: #9792E4;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 900;
 }
 
 /* #endregion about us */
@@ -465,6 +478,8 @@ footer a {
         text-align: center;
     }
 
+    /* col row */
+
     #offers img {
         width: 100%;
     }
@@ -472,7 +487,9 @@ footer a {
     #offers .col-12 {   
         padding: 0.5rem;
         line-height: 1.5rem;
-    }                                   /* Offers */
+    }                                   
+    
+    /* Offers */
 
     .testimonial-card {
         text-align: left;
@@ -480,7 +497,9 @@ footer a {
 
     .testimonial-card > .col-4 {
         text-align: center;
-    }                                   /* Testimonials */
+    }                                   
+    
+    /* Testimonials */
 
     .col-6 {
         width: calc(100% / 12 * 6);
@@ -488,11 +507,16 @@ footer a {
     
     #benefits .row {
         justify-content: space-between;
-    }
-                                         /* benefits */
+    }                                     
+    
+    /* benefits */  
 
-    #about-us .col-4 {
-        width: calc(100% / 12 * 4);
+    #about-us h2 {
+        font-size: 3.5rem;
+    }
+    
+    .about-card-ceo, .about-card-text {
+        padding: 1rem;
     }
 
     .about-card-ceo {
@@ -501,6 +525,8 @@ footer a {
 
     #quotes {
         position: absolute;
+        top: 0;
+        right: 100%;
     }
 
     .about-card-ceo {
@@ -510,6 +536,9 @@ footer a {
     .about-card-ceo img {
         width: 200px;
     }
+
+
+    /* about us */
 
     
 
