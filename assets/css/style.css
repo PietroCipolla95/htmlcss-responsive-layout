@@ -232,6 +232,7 @@ nav {
 
 .testimonials-header {
     text-align: center;
+    font-size: 1.4rem;
 }
 
 .testimonials-header p {
@@ -265,7 +266,6 @@ nav {
     object-fit: cover;
     width: 180px;
     aspect-ratio: 1;
-    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -622,6 +622,36 @@ footer a {
     .image-two {
         width: 60%;
     }
+
+    /* planning */
+
+    #testimonials .col-24 {
+        display: flex;
+        width: calc(100% / 12 * 2.4);
+    }
+
+    #testimonials .col-96 {
+        display: flex;
+        width: calc(100% / 12 * 9.6);
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2  rem;
+    }
+
+    .testimonial-card {
+        padding: 1rem;
+    }
+
+    /* testimonials */
+
+
+
+   
+
+    
+
+
+
 
 
 
