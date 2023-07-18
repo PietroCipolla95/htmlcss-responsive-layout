@@ -198,8 +198,8 @@ nav {
     font-size: 2rem;
 }
 
-#app-dev {
-    background-color: var(--rsp-secondary);
+#app-dev .card {
+    background-color: white;
     border-radius: 30px;
     padding: 1rem;
     margin-bottom: 2rem;
@@ -220,6 +220,10 @@ nav {
     padding: 1.3rem;
     background-color: #9792E4;
     border-radius: 50%;
+}
+
+.image-one {
+    padding: 5rem 0;
 }
 
 /* #endregion Planning */
@@ -557,7 +561,7 @@ footer a {
 
 /* #region desktop view */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 
     .menu {
         display: none;
@@ -592,6 +596,36 @@ footer a {
         width: 40%;
         aspect-ratio: 1;    
     }
+
+    /* offers */
+
+    .col-6-lg {
+        width: calc(100% / 12 * 6);
+        padding: 2rem;
+    }
+
+    #planning .row {
+        flex-direction: row;
+    }
+
+    #app-dev {
+        padding-top: 20rem;
+    }
+
+    #app-dev > .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .image-two {
+        width: 60%;
+    }
+
+
+
+    
 
 
 }
