@@ -137,18 +137,18 @@ nav .row {
 
 #offers .col-4 {
     text-align: center;
-    font-weight: 600;
 }
 
 #offers .card {
     background-color: var(--rsp-light-heanvenly);
     justify-content: center;
-    padding: 1rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
     border-radius: 20px;
     height: 100%;
 }
 
-#offers h2 {
+#offers h2,
+#offers i {
     color: var(--rsp-heanvenly);
     padding-bottom: 1rem;
 }
@@ -156,6 +156,9 @@ nav .row {
 #offers p {
     color: gray;
     padding-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
 }
 
 #demo {
@@ -277,6 +280,11 @@ nav .row {
     margin: 2rem 0;
 }
 
+#benefits .row {
+    justify-content: center;
+}
+
+
 #benefits .container > h2 {
     color: white;
     text-align: center;
@@ -293,7 +301,7 @@ nav .row {
 }
 
 .benefit-card {
-    margin: 1rem 0;
+    margin: 1rem -1rem;
     background-color: white;
     border-radius: 20px;
     color: var(--rsp-primary);
@@ -457,8 +465,13 @@ footer a {
         text-align: center;
     }
 
+    #offers img {
+        width: 100%;
+    }
+
     #offers .col-12 {   
         padding: 0.5rem;
+        line-height: 1.5rem;
     }                                   /* Offers */
 
     .testimonial-card {
@@ -470,8 +483,13 @@ footer a {
     }                                   /* Testimonials */
 
     .col-6 {
-        width: calc(96% / 12 * 6);
-    }                                    /* benefits */
+        width: calc(100% / 12 * 6);
+    }  
+    
+    #benefits .row {
+        justify-content: space-between;
+    }
+                                         /* benefits */
 
     #about-us .col-4 {
         width: calc(100% / 12 * 4);
