@@ -644,6 +644,10 @@ footer a {
 
     /* testimonials */
 
+    #benefits .col-4 {
+        width: calc(100% / 12 * 4);
+    }
+
 
 
    
