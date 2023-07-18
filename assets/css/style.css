@@ -156,6 +156,10 @@ nav {
     margin-top: 2rem;
 }
 
+#demo p {
+    margin: 2rem 0;
+}
+
 #offers .col-12 {
     margin: 1rem 0;
 }
@@ -163,11 +167,12 @@ nav {
 #app-store {
     text-decoration: none;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.5rem;
     color: white;
     background-color: var(--rsp-heanvenly);
     border-radius: 20px;
-    padding: 0.5rem 2.5rem; 
+    padding: 0.5rem 3.5rem;
 }
 
 #app-store i {
@@ -588,7 +593,7 @@ footer a {
         aspect-ratio: 1;    
     }
 
-    
+
 }
 
 
