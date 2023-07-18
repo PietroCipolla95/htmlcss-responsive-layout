@@ -60,13 +60,13 @@ body {
 
 .container {
     max-width: 1170px;
-    min-width: 375px;
     width: 90%;
     margin: auto;
 }
 
 .row {
     padding: 1rem;
+    display: flex;
 }
 
 .d-flex {
@@ -86,7 +86,7 @@ body {
 }
 
 .col-12 {
-    width: calc(100% /12 * 12)
+    width: 100%;
 }
 
 .dir-col {
@@ -94,7 +94,7 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #benefits a,
@@ -140,12 +140,12 @@ nav .row {
     font-weight: 600;
 }
 
-#offers .col-12 {
+#offers .card {
     background-color: var(--rsp-light-heanvenly);
     justify-content: center;
     padding: 1rem 1rem 0 1rem;
     border-radius: 20px;
-    margin: 1rem;
+    height: 100%;
 }
 
 #offers h2 {
@@ -166,13 +166,6 @@ nav .row {
 
 #demo > .col-12 {
     margin-bottom: 0;
-}
-
-
-#offers .text {
-    margin: 1.5rem;
-    align-items: center;
-    justify-self: flex-end;
 }
 
 #app-store {
@@ -444,7 +437,7 @@ footer a {
 
 /* #region tablet view */
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .row {
         flex-wrap: wrap;
@@ -452,16 +445,16 @@ footer a {
     }
 
     .col-8 {
-        width: calc(90% / 12 * 8);
+        width: calc(100% / 12 * 8);
     }
 
     .col-4 {
-        width: calc(90% / 12 * 4);
+        width: calc(100% / 12 * 4);
         text-align: center;
     }
 
     #offers .col-12 {   
-        margin: 0.5rem;
+        padding: 0.5rem;
     }                                   /* Offers */
 
     .testimonial-card {
@@ -475,6 +468,10 @@ footer a {
     .col-6 {
         width: calc(96% / 12 * 6);
     }                                    /* benefits */
+
+    #about-us .col-4 {
+        width: calc(100% / 12 * 4);
+    }
 
     .about-card-ceo {
         position: relative;
@@ -524,6 +521,9 @@ footer a {
 
 /* #region desktop view */
 
+@media screen and (min-width: 1200px) {
+    
+}
 
 
 
